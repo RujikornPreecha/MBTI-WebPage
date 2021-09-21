@@ -1,0 +1,11 @@
+body {
+  background-color: #251762;
+  border-color: white;
+  background-attachment: fixed;
+}
+h2,
+p,
+strong,
+a {
+  color: white;
+}
