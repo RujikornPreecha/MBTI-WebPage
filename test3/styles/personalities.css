@@ -1,0 +1,36 @@
+.personalitiesPage {
+  background-color: #f8dbe0;
+  color: black;
+}
+
+.mainPersonalities {
+  padding-top: 2rem;
+}
+
+.mainPersonalities h1 {
+  text-align: center;
+}
+
+.mainPersonalities h6 {
+  font-weight: bolder;
+}
+.personalityContent {
+  text-indent: 2rem;
+}
+.personalityQuote {
+  font-style: italic;
+  quotes: "“" "”" "‘" "’";
+}
+.personalityQuote::before {
+  content: open-quote;
+}
+.personalityQuote::after {
+  content: close-quote;
+}
+.personalityImage {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.personalityAuthor {
+  padding-bottom: 2rem;
+}
